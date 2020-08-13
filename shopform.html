@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up for shopping</title>
+	<meta http-equiv="login" content="0;url=http://google.com/" />
+	<link rel="stylesheet" type="text/css" href="css/shopform.css">
+	<script type="text/javascript" src="js/shopform.js"></script>
+</head>
+<body>
+
+	<h1><u><marquee>Visit our page!! sign up and login to continue. Buy in easy and comfortable way along with excellent quality and quantity.</marquee></u></h1>
+
+	<div id="shopimg">
+		<img src="img/shop3.jpg" style=" height:550px; width: 515px; float: right;">
+	</div>
+	<fieldset id="fieldset1">
+
+	<form action="html/login.html" method="GET" id="myForm" onsubmit="return bg()">
+		<h2>Sign In</h2>
+		<label><b> Username:</b><input type="text" name="name" id="name" ><p id="nameerror"></p></label>
+		<label><b>Email Address:</b><input type="Email" name="email" id="email"><p id="emailerror"></p></label>
+		<label><b>Password:</b><input type="Password" name="password" id="password"><p id="passerror"></p></label>
+		<label><b>Re-enter Password:</b><input type="Password" name="repassword" id="repassword"><p id="repasserror"></p></label>
+		<label for="city"><b>Country:</b>
+        <select name="city" id="city">
+        	<option value="sydney">Nepal</option>
+        	<option value="sydney">China</option>
+        	<option value="sydney">India</option>
+        	<option value="sydney">Australia</option>
+        	<option value="sydney">Africa</option>
+        	<option value="sydney">Austria</option>
+        	<option value="sydney">Bhutan</option>
+            <option value="sydney">Sydney</option>
+            <option value="melbourne">Melbourne</option>
+            <option value="cromwell">Cromwell</option>
+        </select><br> 
+        </label> 
+		<b>Gender:</b>
+		<input type="radio" name="gender" id="gender" value="male">
+			<label for="male">Male</label>
+		<input type="radio" name="gender" id="gender" value="female">
+			<label for="female">Female</label>
+		<input type="radio" name="gender" id="gender" value="other">
+  			<label for="other">Other</label><br>
+        <p id="gendererror"></p>
+  		<b>Marital Status:</b>
+  		<input type="radio" name="status" value="Single" id="status"> 
+      		<label for="Single">Single </label>
+  	  	<input type="radio" name="status" value="Married" id="status"> 
+      		<label for="Married">Married</label>      	
+      	<input type="radio" name="status" value="Widow" id="status">
+      		<label for="Widow"> Widow </lavel><br>
+      	<label>
+      	<fieldset><legend><b>Choose your interests:-</b></legend>
+    	<input type="checkbox" id="interest" name="interest" value="coding">
+    		<label for="coding">Coding</label>
+    	<input type="checkbox" id="interest" name="interest" value="music">
+    		<label for="music">Music</label>
+    	<input type="checkbox" id="interest" name="interest" value="others">
+    		<label for="music">Others</label>
+    	</label></fieldset>
+    	<b>Comment :</b> <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter comment here...
+         </textarea><br>
+        
+		<input type="submit" name="login" id="login" value="SignUp" onclick="bg()">
+	</form>
+	</fieldset>
+	
+</body>
+</html>

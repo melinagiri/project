@@ -1,0 +1,49 @@
+body,h1{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	background-color:black;
+	color:white;
+	}
+
+body{
+	margin: 20px;
+	padding:50px 250px 0px 250px; 
+	margin-top: 2px; 
+}
+.text-container h1{
+	font-size:100px;
+	color:rgba(225,225,225,.1);
+	background-image: url(../img/Colors.png);
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 15s linear infinite;
+	}
+
+@keyframes animate{
+	0%{
+	background-position: left 0px top 10px;	
+	}
+	40%{
+	background-position: left 800px top 10px;
+	}
+}
+ul{
+	list-style: none;
+}
+a{
+	position: relative;
+	margin: 10px;
+	padding-left: :10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	float: left;
+	color: skyblue;
+
+}
+
+img{
+	position: relative;
+}
+
+

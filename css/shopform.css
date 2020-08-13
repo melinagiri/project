@@ -1,0 +1,83 @@
+body{
+	padding:0px 240px 0px 250px; 
+	margin-top: 2px; 
+	background-color:#85C1E9;
+	position: relative;
+	background-image: url("../img/shop.jpg");
+	background-repeat: repeat;
+}
+
+#fieldset1{
+	margin-top: 0px;
+	margin-left: 0px;
+	position: relative;	
+	background-image: url("../img/user.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: blue ;
+}
+h1{
+	padding: 5px;
+	margin-top: 0px;
+	text-align: center;
+	color:#1B4F72;
+	margin-top: 0px; 
+}
+form{
+	text-align: left;
+	padding: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	color:#c0fbee;
+	position: relative;
+	background: transparent;
+}
+h2{
+	padding: 0px;
+	color: #ffff07;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+#name, #address, #password,#repassword, #email, #gender{
+	padding: 5px;
+	margin: 0px;
+}
+
+#nameerror, #emailerror, #passerror, #repasserror{
+	color: red;
+}
+
+input{
+	margin-top: 0px;
+	margin-left: 0px;
+	color: black;
+	float: right;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	font-size:15px;
+}
+
+#city{
+	float: right;
+	font-size: 15px;
+}
+
+#gender, #status, #interest{
+	float: none;
+}
+
+#login{
+	cursor: pointer;
+	padding:5px;
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+#shopimg{
+	float: right;
+}
